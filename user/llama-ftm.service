@@ -1,0 +1,6 @@
+[Unit]
+Description=Locally hosted AI autocompletion service
+
+[Service]
+ExecStart=llama-server --fim-qwen-1.5b-default
+; ExecStart=llama-server --fim-qwen-3b-default

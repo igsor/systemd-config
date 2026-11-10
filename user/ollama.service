@@ -1,0 +1,6 @@
+[Unit]
+Description=AI model served locally or from cloud
+Wants=network.target
+
+[Service]
+ExecStart=ollama serve
